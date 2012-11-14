@@ -1,0 +1,28 @@
+/* My Tech Team */
+
+@import url('http://fonts.googleapis.com/css?family=Ultra|Oswald:400');
+
+/*
+h1 { font-family: 'Ultra', serif; }
+p { font-family: 'Oswald', sans-serif; }
+*/
+
+/* Menu */
+.gf-menu { margin-top: 0; }
+.gf-menu .item,
+.gf-menu.l1 > li > .item { font-family: 'Oswald', sans-serif; font-size: 18px; text-transform: uppercase; }
+.gf-menu li.parent > .item::after { top: 60%; }
+
+/* Logo Module */
+.logo h1 { color: #111; font-family: 'Ultra', serif; font-size: 32px; text-align: center; text-transform: uppercase; }
+.logo h1 > a { color: #111; }
+.logo img { height: 60px; vertical-align: top; width: 63px; }
+.logo .city { font-family: 'Oswald', sans-serif; font-size: 36px; line-height: 36px; text-transform: uppercase; }
+.logo .name { font-family: 'Ultra', serif; font-size: 64px; letter-spacing: 10px; }
+.logo .name a { color: #111; }
+.logo .name .caps { font-size: 120%; }
+.logo .phone { color: #72110A; font-family: 'Ultra', serif;  font-size: 78px; }
+.logo .state { font-family: 'Ultra', serif;  font-size: 32px; }
+.logo .city, .logo .state { display: block; }
+div.custom.logo > div { text-align: center; }
+div.custom.logo > div > div { display: inline-block; }
