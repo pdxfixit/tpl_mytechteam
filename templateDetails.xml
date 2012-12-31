@@ -2,12 +2,12 @@
 <extension method="upgrade" type="template" version="2.5">
     <name>mytechteam</name>
     <author>PDXfixIT, LLC</author>
-    <creationDate>November 12, 2012</creationDate>
+    <creationDate>December 31, 2012</creationDate>
     <copyright>(C) 2005 - 2012 RocketTheme, LLC. All rights reserved.</copyright>
     <license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
     <authorEmail>mytechteam@pdxfixit.com</authorEmail>
     <authorUrl>http://www.pdxfixit.com/</authorUrl>
-    <version>1.0.0</version>
+    <version>1.1.0</version>
     <description>My Tech Team template for Joomla!</description>
     <legacycss>false</legacycss>
     <gridcss>false</gridcss>
