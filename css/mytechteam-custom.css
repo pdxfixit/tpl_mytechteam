@@ -1,6 +1,6 @@
 /* My Tech Team */
 
-@import url('http://fonts.googleapis.com/css?family=Ultra|Oswald:400');
+@import url(http://fonts.googleapis.com/css?family=Ultra|Oswald:400);
 
 /*
 h1 { font-family: 'Ultra', serif; }
@@ -8,21 +8,20 @@ p { font-family: 'Oswald', sans-serif; }
 */
 
 /* Menu */
-.gf-menu { margin-top: 0; }
+.gf-menu { margin-top: 0; text-align: center; }
+.gf-menu li { display: inline-block; float: inherit; }
 .gf-menu .item,
 .gf-menu.l1 > li > .item { font-family: 'Oswald', sans-serif; font-size: 18px; text-transform: uppercase; }
 .gf-menu li.parent > .item::after { top: 60%; }
 
 /* Logo Module */
-.logo h1 { color: #111; font-family: 'Ultra', serif; font-size: 32px; text-align: center; text-transform: uppercase; }
-.logo h1 > a { color: #111; }
-.logo img { height: 60px; vertical-align: top; width: 63px; }
-.logo .city { font-family: 'Oswald', sans-serif; font-size: 36px; line-height: 36px; text-transform: uppercase; }
-.logo .name { font-family: 'Ultra', serif; font-size: 64px; letter-spacing: 10px; }
-.logo .name a { color: #111; }
-.logo .name .caps { font-size: 120%; }
-.logo .phone { color: #72110A; font-family: 'Ultra', serif;  font-size: 78px; }
-.logo .state { font-family: 'Ultra', serif;  font-size: 32px; }
-.logo .city, .logo .state { display: block; }
-div.custom.logo > div { text-align: center; }
-div.custom.logo > div > div { display: inline-block; }
+#mtt-city { font-family: 'Oswald', sans-serif; font-size: 36px; letter-spacing: 2px; line-height: 36px; text-transform: uppercase; }
+#mtt-logo { height: 81px; vertical-align: top; width: 81px; }
+#mtt-name, #mtt-name a { color: #146935; font-family: 'Ultra', serif; font-size: 64px; letter-spacing: 9px; margin-left: 6px; text-align: center; text-transform: uppercase; }
+#mtt-name a:hover { color: #146935; }
+#mtt-name span { font-size: 72px; }
+#mtt-phone { color: #111; font-family: 'Oswald', sans-serif;  font-size: 78px; line-height: 78px; }
+#mtt-state { font-family: 'Ultra', serif;  font-size: 32px; margin-top: 7px; text-transform: uppercase; }
+#mtt-wrapper { text-align: center; }
+#mtt-wrapper > div { display: inline-block; }
+#mtt-city, #mtt-state { color: #111; display: block; }

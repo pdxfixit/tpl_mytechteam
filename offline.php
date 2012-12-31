@@ -34,7 +34,7 @@ ob_start();
 				<div class="rt-grid-12">
 
 					<div class="rt-block offline-image custom logo">
-						<h1 class="name">
+						<h1 id="mtt-name">
 							<?php echo htmlspecialchars($app->getCfg('sitename')); ?>
 						</h1><?php /*
 						<div>
