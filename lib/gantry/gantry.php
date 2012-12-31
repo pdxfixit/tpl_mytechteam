@@ -19,3 +19,5 @@ if (!file_exists($gantry_lib_path)) {
 $backtrace = debug_backtrace();
 $gantry_calling_file = $backtrace[0]['file'];
 include($gantry_lib_path);
+
+$app = JFactory::getApplication();
